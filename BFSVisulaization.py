@@ -72,9 +72,9 @@ G.addEdge(4, 6)
 G.addEdge(5, 6)
 G.addEdge(6, 7)
 
-G1 = GraphVisualization(13)
+G = GraphVisualization(8)
 
 
-G1.visualize()
-G1.print_path(1, 8)        
+G.visualize()
+G.print_path(1, 8)        
 
